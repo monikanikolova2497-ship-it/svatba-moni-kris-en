@@ -73,8 +73,8 @@ body{
 @keyframes sweep{0%,35%{left:-60%}75%,100%{left:130%}}
 
 #spread{z-index:6;visibility:hidden}
-#pTop{position:absolute;left:0;top:0;width:100%;height:51%;transform-origin:50% 100%;backface-visibility:hidden}
-#pBot{position:absolute;left:0;top:51%;width:100%;height:49%}
+#pTop{position:absolute;left:0;top:0;width:100%;height:49.885%;transform-origin:50% 100%;backface-visibility:hidden}
+#pBot{position:absolute;left:0;top:49.885%;width:100%;height:50.115%}
 #pTop img,#pBot img{position:absolute;inset:0;width:100%;height:100%}
 
 #ticket{z-index:5;transform-origin:50% 50%}
@@ -130,14 +130,14 @@ body{
       <div class="fill" id="oFlap"><img src="o_flap.webp" alt=""></div>
       <img src="o_back.webp" alt="">
     </div>
-    <div class="L" id="ticket"><img src="ticket.webp" alt="Бордна карта: църковен ритуал в 16:00, храм „Света Sofia“; тържество в 18:00, ресторант „Лаура“, НДК. Потвърждение до 15.06.2027 на 0897 775 642." class="shadowed"></div>
+    <div class="L" id="ticket"><img src="ticket.webp" alt="Wedding boarding pass: St. Sophia Church at 16:00, Laura Restaurant at 18:00. RSVP by 15 June 2027." class="shadowed"></div>
     <div class="L" id="pp">
       <div class="fill" id="pCover"><img src="p_closed.webp" alt="Wedding passport" class="shadowed"></div>
       <div id="sheen"></div>
     </div>
     <div class="L" id="oFront"><img src="o_front.webp" alt=""></div>
     <div class="L" id="spread">
-      <div id="pBot"><img src="p_bottom.webp" alt="Паспорт: младоженци Monika and Kristiyan, кумове сем. Атанасови, 17.07.2027" class="shadowed"></div>
+      <div id="pBot"><img src="p_bottom.webp" alt="Wedding passport: Monika and Kristiyan, Victoria and Stanislav Atanasovi, 17 July 2027" class="shadowed"></div>
       <div id="pTop"><img src="p_top.webp" alt="Two people in love, one flight with no return ticket. Join us on the day we say I do!" class="shadowed"></div>
     </div>
     <div class="L shadowed" id="envC">
@@ -187,7 +187,7 @@ body{
   const LABELS = ['Open the envelope','Take out the passport','Open the passport','Collect your boarding pass',''];
 
   // image proportions (cropped layers)
-  const R = { env: 931/1442, openH: 993/1085, openBody: 0.6052, pass: 1211/887, spread: 1445/964, ticket: 747/1897 };
+  const R = { env: 931/1442, openH: 993/1085, openBody: 0.6052, pass: 1211/887, spread: 870/964, ticket: 498/1897 };
 
   let phase = 0, busy = false, G = {};
 
