@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Wedding invitation for Monika and Kristian – 17 July 2027, Sofia">
-<meta property="og:title" content="Monika & Kristian – Wedding Invitation">
-<meta property="og:description" content="17 July 2027 · Sofia. Open the invitation!">
+<meta name="description" content="Wedding invitation for Monika and Kristiyan – 17 July 2027, Sofia">
+<meta property="og:title" content="Monika & Kristiyan – Wedding Invitation">
+<meta property="og:description" content="17 July 2027 · Sofia. Open your invitation!">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);box-sizing:border-box}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Monika and Kristian</title>
+<title>Monika and Kristiyan</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500;1,600&family=Manrope:wght@500;600&display=swap">
@@ -121,7 +121,7 @@ body{
   </div>
 
   <header class="head" id="head">
-    <h1>Monika &amp; Kristian</h1>
+    <h1>Monika &amp; Kristiyan</h1>
     <p>17 · 07 · 2027 &nbsp;·&nbsp; Sofia</p>
   </header>
 
@@ -130,15 +130,15 @@ body{
       <div class="fill" id="oFlap"><img src="o_flap.webp" alt=""></div>
       <img src="o_back.webp" alt="">
     </div>
-    <div class="L" id="ticket"><img src="ticket.webp" alt="Boarding pass: church ceremony at 4:00 PM, St. Sophia Church; reception at 6:00 PM, Laura Restaurant, NDK. RSVP by 15 June 2027 at 0897 775 642." class="shadowed"></div>
+    <div class="L" id="ticket"><img src="ticket.webp" alt="Бордна карта: църковен ритуал в 16:00, храм „Света Sofia“; тържество в 18:00, ресторант „Лаура“, НДК. Потвърждение до 15.06.2027 на 0897 775 642." class="shadowed"></div>
     <div class="L" id="pp">
-      <div class="fill" id="pCover"><img src="p_closed.webp" alt="Wedding Passport" class="shadowed"></div>
+      <div class="fill" id="pCover"><img src="p_closed.webp" alt="Wedding passport" class="shadowed"></div>
       <div id="sheen"></div>
     </div>
     <div class="L" id="oFront"><img src="o_front.webp" alt=""></div>
     <div class="L" id="spread">
-      <div id="pBot"><img src="p_bottom.webp" alt="Паспорт: младоженци Monika and Kristian, кумове сем. Атанасови, 17.07.2027" class="shadowed"></div>
-      <div id="pTop"><img src="p_top.webp" alt="Two people in love, one one-way flight. We joyfully invite you to share the day we say “I do”!" class="shadowed"></div>
+      <div id="pBot"><img src="p_bottom.webp" alt="Паспорт: младоженци Monika and Kristiyan, кумове сем. Атанасови, 17.07.2027" class="shadowed"></div>
+      <div id="pTop"><img src="p_top.webp" alt="Two people in love, one flight with no return ticket. Join us on the day we say I do!" class="shadowed"></div>
     </div>
     <div class="L shadowed" id="envC">
       <img id="cBody" src="c_body.webp" alt="">
@@ -165,10 +165,10 @@ body{
         </button>
         <button class="btn primary" id="replay" type="button">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
-          Open again
+          Start again
         </button>
       </div>
-      <span class="rot">Turn your phone sideways for larger text</span>
+      <span class="rot">Rotate your phone for larger text</span>
     </div>
   </div>
   <div class="loader" id="loader">Preparing your invitation…</div>
@@ -183,7 +183,7 @@ body{
   const stage = $('stage'), app = $('app'), head = $('head');
   const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const EASE = { in:'cubic-bezier(.55,0,.8,.35)', out:'cubic-bezier(.22,1,.36,1)', io:'cubic-bezier(.65,0,.35,1)', back:'cubic-bezier(.3,1.35,.55,1)' };
-  const HINTS = ['Tap the seal to open','Tap to take out the passport','Tap the passport to open it','Tap to collect your boarding pass',''];
+  const HINTS = ['Tap the seal to open','Tap to take out the passport','Tap the passport to open','Tap to collect your boarding pass',''];
   const LABELS = ['Open the envelope','Take out the passport','Open the passport','Collect your boarding pass',''];
 
   // image proportions (cropped layers)
